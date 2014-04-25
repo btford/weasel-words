@@ -1,0 +1,23 @@
+{
+  "name": "weasel-words",
+  "version": "0.0.0",
+  "description": "detect weasel words",
+  "main": "passive.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node test"
+  },
+  "keywords": [
+    "english",
+    "writing",
+    "prose",
+    "words"
+  ],
+  "author": "Brian Ford",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.3"
+  }
+}
