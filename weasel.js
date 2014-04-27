@@ -26,15 +26,25 @@ var weasels = [
   'completely'
 ];
 
+// Allow "too many" and "too few"
+var exceptions = [
+  'many',
+  'few'
+]
+
 var re = new RegExp('\\b(' + weasels.join('|') + ')\\b', 'gi');
 
 module.exports = function (text, opts) {
   var suggestions = [];
   while (match = re.exec(text)) {
-    suggestions.push({
-      index: match.index,
-      offset: match[0].length,
-    });
+    var weasel = match[0].toLowerCase();
+    if (exceptions.indexOf(weasel) === -1 ||
+        text.substr(match.index-4, 4) !== 'too ') {
+      suggestions.push({
+        index: match.index,
+        offset: weasel.length,
+      });
+    }
   }
   return suggestions;
 };

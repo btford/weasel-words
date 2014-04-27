@@ -13,4 +13,12 @@ describe('weasel', function () {
     expect(weasel('Everything is ok.')).toEqual([]);
   });
 
+  it('should not detect "too many"', function () {
+    expect(weasel('I have too many things.')).toEqual([]);
+  });
+
+  it('should not detect "too few"', function () {
+    expect(weasel('I have too few things.')).toEqual([]);
+  });
+
 });
