@@ -1,6 +1,6 @@
 {
   "name": "weasel-words",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "detect weasel words",
   "main": "weasel.js",
   "directories": {
