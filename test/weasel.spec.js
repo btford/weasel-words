@@ -9,4 +9,8 @@ describe('weasel', function () {
     ]);
   });
 
+  it('should not detect weasel sub-words', function () {
+    expect(weasel('Everything is ok.')).toEqual([]);
+  });
+
 });

@@ -26,7 +26,7 @@ var weasels = [
   'completely'
 ];
 
-var re = new RegExp('(' + weasels.join('|') + ')', 'gi');
+var re = new RegExp('\\b(' + weasels.join('|') + ')\\b', 'gi');
 
 module.exports = function (text, opts) {
   var suggestions = [];
