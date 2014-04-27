@@ -1,4 +1,4 @@
-# passive voice
+# weasel words
 
 npm module for detecting weasel words.
 
