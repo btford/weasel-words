@@ -1,4 +1,4 @@
-# weasel words
+# weasel words  [![Build Status](https://travis-ci.org/btford/weasel-words.svg?branch=master)](https://travis-ci.org/btford/weasel-words)
 
 npm module for detecting weasel words.
 
