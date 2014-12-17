@@ -23,7 +23,8 @@ var weasels = [
   'clearly',
   'vast',
   'relatively',
-  'completely'
+  'completely',
+  'obviously'
 ];
 
 // Allow "too many" and "too few"
