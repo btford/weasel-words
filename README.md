@@ -2,7 +2,7 @@
 
 npm module for detecting weasel words.
 
-Based on this [shell script](http://matt.might.net/articles/shell-scripts-for-weasel-words-weasel-words-duplicates/).
+Based on this [shell script](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/).
 
 
 ## Install
