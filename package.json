@@ -6,6 +6,10 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btford/weasel-words.git"
+  },
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node test"
   },
