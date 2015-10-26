@@ -23,5 +23,8 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine-node": "^1.14.3"
+  },
+  "bugs": {
+    "url": "https://github.com/btford/weasel-words"
   }
 }
