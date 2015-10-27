@@ -22,6 +22,7 @@ var weasels = [
   'substantially',
   'surprisingly',
   'tiny',
+  'usually',
   'various',
   'vast',
   'very'
